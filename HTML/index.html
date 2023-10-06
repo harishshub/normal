@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><!--This the HTML of the home page of car retail website -->
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>SHARK</title><!--Title tag is used to appear the text in the tab of the website-->
+    <!--The below link are used for specilized font and icon that are not available in the vs code-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Mansalva&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Header tag is the first part in the website layout.
+    In this header tag, There will be componenets like logo,company name and nav bar-->
+    <header class="header">
+      <!--For logo, image tag is used to retrieve the image. Image is available in the image folder.-->
+        <div class="header-logo">
+            <img class="logo-img" src="../images/carlogo.png" />
+        </div>
+        <!--For the company name, H3 heading tag is used.-->
+        <div class="header-companyname">
+            <h3>SHARK </h3>
+        </div>
+        <!--It is the nav bar of the website. We can link other website using anchor tag.-->
+        <div class="header-items">
+                <a href="index.html" class="active" ><i class="fa fa-fw fa-home"></i>Home</a>
+                <a href="buy.html"><i class="fa fa-car"></i>Buy Car</a>
+                <a href="#"><i class="fa fa-money"></i>Sell Car</a>
+                <a href="#"><i class="fa fa-building"></i>Our service</a>
+                <a href="#"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+              </div>    
+    </header>
+    <hr />
+    <!--This is the context of the website. Here we include images, description of the company etc-->
+    <div class="banner">
+      <!--In this image tag, a good car image is included where the car has to be famous-->
+    <img class="banner-img" src="../images/alen-jacob-wdxb9OOMQOs-unsplash.jpg" />
+    <!--This below paragraph tag is used to show the description of the company-->
+    <p class="banner-para">Shark is a prominent second-hand car retail company that specializes in providing high-quality pre-owned vehicles to its customers. With a strong commitment to customer satisfaction and a reputation for reliability, Shark has earned a trusted position in the automotive industry.
+
+        The company offers a diverse range of used cars, catering to various preferences and budgets. Whether customers are looking for economy cars, luxury vehicles, or specific makes and models, Shark's extensive inventory and professional staff ensure a seamless car-buying experience.
+
+        Shark's success can be attributed to its dedication to transparency and honesty. They provide detailed vehicle histories, thorough inspections, and fair pricing, ensuring that customers can make informed decisions when purchasing their next vehicle. This commitment to integrity has helped Shark build lasting relationships with its clientele.
+
+        In addition to its impressive selection of cars, Shark also offers a range of services, including financing options, vehicle maintenance, and trade-in opportunities. This comprehensive approach makes it a one-stop destination for individuals seeking quality used cars and reliable automotive services.
+
+        With a strong emphasis on customer trust, a wide array of options, and a commitment to excellence, Shark has established itself as a leading player in the second-hand car retail industry, serving customers with integrity and satisfaction.
+    </p>
+    </div>
+    <!--It is the second part of the website will will be the useful part to the user who are using the website.
+    In this car retail website, the most user will seek the good second end car rate. 
+    So it is best to showcase the best car in the company-->
+    <h3 class="polular">Popular Cars</h3>
+    <!--To hype the user, we can use Image gallery to present the car in pictorial instead of list.
+    We can also insert the link in the image itself so that the image is not just the information and be the link to the HTML-->
+    <div class="polular-conteen">
+    <div class="popular-conteen-gallery">
+        <a target="_blank" href="https://www.spinny.com/max/buy-used-cars/bangalore/mercedes-benz/c-class/c-220-cdi-progressive-yelahanka-2019/7452147/">
+          <img src="../images/benz.avif" alt="mercedes-benz" width="600" height="400">
+        </a>
+        <div class="popular-conteen-gallery-desc"><b>2019 Mercedes-Benz C-Class</b><br><br><i class="fa fa-inr" aria-hidden="true"></i>39,75,000</div>
+      </div>
+      
+      <div class="popular-conteen-gallery">
+        <a target="_blank" href="https://www.spinny.com/max/buy-used-cars/gurgaon/audi/a3/35-tdi-premium-plus-sector-29-2019/9388196/">
+          <img src="../images/audi.avif" alt="audi" width="600" height="400">
+        </a>
+        <div class="popular-conteen-gallery-desc"><b>2019 Audi A3</b><br><br><i class="fa fa-inr" aria-hidden="true"></i>22,90,000</div>
+      </div>
+      
+      <div class="popular-conteen-gallery">
+        <a target="_blank" href="https://www.spinny.com/max/buy-used-cars/bangalore/bmw/3-series/320d-luxury-line-yelahanka-2021/8367942/">
+          <img src="../images/bmw.avif" alt="bmw" width="600" height="400">
+        </a>
+        <div class="popular-conteen-gallery-desc"><b>2021 BMW 3 Series</b><br><br><i class="fa fa-inr" aria-hidden="true"></i>49,90,000</div>
+      </div>
+      
+      <div class="popular-conteen-gallery">
+        <a target="_blank" href="https://www.spinny.com/max/buy-used-cars/bangalore/volvo/s60/cross-country-inscription-yelahanka-2017/10427207/">
+          <img src="../images/volvo.avif" alt="volvo" width="600" height="400">
+        </a>
+        <div class="popular-conteen-gallery-desc"><b>2017 Volvo S60</b><br><br><i class="fa fa-inr" aria-hidden="true"></i>22,25,000</div>
+      </div>
+    </div>
+    <!--This is the last part of the website. Here we can show some useful links, rights reserved etc-->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 SHARK Private Limited. All Rights Reserved.</p>
+        </div>
+    </footer>
+      
+</body>
+</html>

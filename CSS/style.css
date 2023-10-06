@@ -1,0 +1,156 @@
+/** Set the background color of the HTML element to black */
+html {
+    background-color: black;
+}
+
+/** Remove default margin on the body element */
+body {
+    margin: 0;
+}
+
+/** Style the header section */
+header {
+    /** Set the background color of the header to aliceblue */
+    background-color: aliceblue;
+    height: 90px;
+    display: flex; /* Use flexbox to arrange logo and company name side by side */
+    align-items: center; /* Center align items vertically */
+    padding: 20px; /* Add padding to header for spacing */
+}
+
+/** Style the logo */
+.logo {
+    flex: 0 0 auto; /* Prevent logo from growing or shrinking */
+}
+
+/** Style the logo image */
+.logo-img {
+    height: 100px; /* Set the height of the logo image */
+    width: 100px; /* Set the width of the logo image */
+    border: 5px solid rgb(6, 66, 115); /* Add a border with a blue color */
+    border-radius: 20%; /* Apply a border-radius to make the image circular */
+    margin: 20px; /* Add margin for spacing */
+}
+
+/** Style the company name */
+.companyname {
+    font-family: 'Roboto', sans-serif; /* Set the font family for the company name */
+    font-size: 3rem; /* Set the font size for the company name */
+    color: rgb(29, 162, 216); /* Set the text color to blue */
+    margin-left: 20px; /* Add some spacing between logo and company name */
+}
+
+/** Style the navigation items */
+.header-items {
+    display: flex; /* Use flexbox to arrange navigation items horizontally */
+    gap: 30px; /* Add spacing between navigation items */
+    margin-left: auto; /* Push the navigation items to the right */
+    margin-right: 20px; /* Add some right margin for spacing */
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 30px; /* Set font size for navigation items */
+    font-family: 'Roboto', sans-serif; /* Set font family for navigation items */
+}
+
+/** Style the links within navigation items */
+.header-items a {
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.5rem; /* Set font size for links */
+    font-weight: bold; /* Set font weight to bold */
+    color: rgb(6, 66, 115); /* Set link color */
+}
+
+/** Style the links on hover */
+.header-items a:hover {
+    cursor: pointer;
+    color: rgb(127, 205, 255); /* Change link color on hover */
+}
+
+/** Style the hero section */
+.banner{
+    display: flex; /* Use flexbox to arrange hero content */
+}
+
+/** Style the hero image */
+.banner-img {
+    width: 60%; /* Set the width of the hero image */
+    height:max-content; /* Set the height of the hero image */
+    margin-left: 10px; /* Add left margin for spacing */
+}
+
+/** Style the hero paragraph */
+.banner-para {
+    white-space: pre-line; /* Preserve line breaks and white space */
+    color: rgb(29, 162, 216); /* Set text color to blue */
+    font-size: 18.2px; /* Set font size */
+    font-family: 'Roboto', sans-serif; /* Set font family */
+    margin-left: 10px; /* Add left margin for spacing */
+    margin-right: 10px; /* Add right margin for spacing */
+    margin-top: 0px; /* Remove top margin */
+    border: 2px groove red; /* Add a border with a red color */
+}
+
+/** Style the h3 headings */
+h3,.popular{
+    font-family: 'Roboto', sans-serif; /* Set font family for h3 headings */
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 30px; /* Set font size for h3 headings */
+    color: rgb(29, 162, 216); /* Set text color to blue */
+}
+
+/** Style the image gallery */
+div.popular-conteen-gallery {
+    margin: 5px; /* Add margin to gallery items */
+    border: 2px solid rgb(6, 66, 115); /* Add a border with a blue color */
+    float: left; /* Float the gallery items to the left */
+    width: 350px; /* Set the width of gallery items */
+    margin-left: 1%; /* Add left margin for spacing */
+}
+
+/** Style gallery items on hover */
+div.popular-conteen-gallery:hover {
+    border: 4px solid rgb(6, 66, 115); /* Change border on hover */
+}
+
+/** Style gallery images */
+div.popular-conteen-gallery img {
+    width: 100%; /* Set the width of gallery images to 100% */
+    height: auto; /* Maintain aspect ratio for images */
+}
+
+/** Style gallery item descriptions */
+div.popular-conteen-gallery-desc {
+    padding: 15px; /* Add padding to descriptions */
+    text-align: center; /* Center-align descriptions */
+    color: rgb(29, 162, 216); /* Set text color to blue */
+}
+
+/** Style the footer section */
+footer {
+    background-color: rgb(3, 36, 64); /* Set background color for footer */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center-align footer content */
+    padding: 20px 0; /* Add padding to top and bottom of footer */
+}
+
+/** Style footer content */
+.footer-content {
+    font-size: 1rem; /* Set font size for footer content */
+    font-family: 'Roboto', sans-serif; /* Set font family for footer content */
+}
+
+/** Style the body element using flexbox */
+body {
+    display: flex; /* Use flexbox for body element */
+    flex-direction: column; /* Set flex direction to column */
+    min-height: 100vh; /* Set minimum height to 100% of viewport height */
+}
+
+/** Style the .conteen class */
+.polular-conteen {
+    flex-grow: 1; /* Allow .conteen to grow within the flex container */
+}
+@media screen and (max-width:1000px){
+    .banner-para{
+        font-size: 14px;
+    }
+}
