@@ -1,0 +1,67 @@
+/** Set the background color of the HTML element to black */
+html {
+    background-color: black;
+}
+
+/** Remove default margin on the body element */
+body {
+    margin: 0;
+}
+
+/** Style the header section */
+header {
+    /** Set the background color of the header to aliceblue */
+    background-color: aliceblue;
+    height: 90px;
+    display: flex; /* Use flexbox to arrange logo and company name side by side */
+    align-items: center; /* Center align items vertically */
+    padding: 20px; /* Add padding to header for spacing */
+}
+
+/** Style the logo */
+.logo {
+    flex: 0 0 auto; /* Prevent logo from growing or shrinking */
+}
+
+/** Style the logo image */
+.logo-img {
+    height: 100px; /* Set the height of the logo image */
+    width: 100px; /* Set the width of the logo image */
+    border: 5px solid rgb(6, 66, 115); /* Add a border with a blue color */
+    border-radius: 20%; /* Apply a border-radius to make the image circular */
+    margin: 20px; /* Add margin for spacing */
+}
+
+/** Style the company name */
+.header-companyname {
+    font-family: 'Roboto', sans-serif; /* Set the font family for the company name */
+    font-size: 3rem; /* Set the font size for the company name */
+    color: rgb(29, 162, 216); /* Set the text color to blue */
+    margin-left: 20px; /* Add some spacing between logo and company name */
+}
+
+/** Style the navigation items */
+.header-items {
+    display: flex; /* Use flexbox to arrange navigation items horizontally */
+    gap: 30px; /* Add spacing between navigation items */
+    margin-left: auto; /* Push the navigation items to the right */
+    margin-right: 20px; /* Add some right margin for spacing */
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 30px; /* Set font size for navigation items */
+    font-family: 'Roboto', sans-serif; /* Set font family for navigation items */
+}
+
+/** Style the links within navigation items */
+.header-items a {
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.5rem; /* Set font size for links */
+    font-weight: bold; /* Set font weight to bold */
+    color: rgb(6, 66, 115); /* Set link color */
+}
+
+/** Style the links on hover */
+.header-items a:hover {
+    text-decoration: underline  rgb(127, 205, 255);
+    cursor: pointer;
+    color: rgb(127, 205, 255); /* Change link color on hover */
+}

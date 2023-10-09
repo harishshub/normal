@@ -30,15 +30,27 @@
         </div>
         <!--For the company name, H3 heading tag is used.-->
         <div class="header-companyname">
-            <h3>SHARK </h3>
+            <h3 class="header-h3">SHARK </h3>
         </div>
         <!--It is the nav bar of the website. We can link other website using anchor tag.-->
         <div class="header-items">
-                <a href="index.html" class="active" ><i class="fa fa-fw fa-home"></i>Home</a>
-                <a href="buy.html"><i class="fa fa-car"></i>Buy Car</a>
-                <a href="#"><i class="fa fa-money"></i>Sell Car</a>
-                <a href="#"><i class="fa fa-building"></i>Our service</a>
-                <a href="#"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+                <a href="index.html" class="header-items-active" ><i class="fa fa-fw fa-home"></i>Home</a>
+                <a href="buy.html" class="header-items-active"><i class="fa fa-car"></i>Buy Car</a>
+                <a href="#"class="header-items-active"><i class="fa fa-money"></i>Sell Car</a>
+                <a href="#"class="header-items-active"><i class="fa fa-building"></i>Our service</a>
+                <a href="#"class="header-items-active"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+                <div class="header-items-dropdown">
+                  <button class="dropbtn"> 
+                    <i class="fa fa-bars"></i>
+                  </button>
+                  <div class="header-items-dropdown-content">
+                    <a href="index.html" class="header-items-active-dropdown-content" ><i class="fa fa-fw fa-home"></i>Home</a>
+                <a href="buy.html" class="header-items-active-dropdown-content"><i class="fa fa-car"></i>Buy Car</a>
+                <a href="#"class="header-items-active-dropdown-content"><i class="fa fa-money"></i>Sell Car</a>
+                <a href="#"class="header-items-active-dropdown-content"><i class="fa fa-building"></i>Our service</a>
+                <a href="#"class="header-items-active-dropdown-content"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+                  </div>
+                </div> 
               </div>    
     </header>
     <hr />
@@ -61,7 +73,7 @@
     <!--It is the second part of the website will will be the useful part to the user who are using the website.
     In this car retail website, the most user will seek the good second end car rate. 
     So it is best to showcase the best car in the company-->
-    <h3 class="polular">Popular Cars</h3>
+    <h3 id="popularid" class="polular">Popular Cars</h3>
     <!--To hype the user, we can use Image gallery to present the car in pictorial instead of list.
     We can also insert the link in the image itself so that the image is not just the information and be the link to the HTML-->
     <div class="polular-conteen">
